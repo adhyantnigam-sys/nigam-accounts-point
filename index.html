@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nigam Accounts Point | Accounts Training & Services</title>
+<meta name="description" content="Nigam Accounts Point - Accounts Training, Tally Prime, GST, Income Tax, E-Accounting and Bookkeeping services in Alambagh, Lucknow.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#172033;background:#f6f8fc;line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:1000;background:#fff;box-shadow:0 3px 15px #00000012}
+.navbar{min-height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:22px;font-weight:800;color:#123d73}.logo span{color:#e39b24}
+.nav-links{display:flex;gap:24px;list-style:none}.nav-links a{font-weight:600;color:#26344d}.nav-links a:hover{color:#e39b24}
+.menu-btn{display:none;border:0;background:#123d73;color:#fff;padding:9px 12px;border-radius:7px;font-size:20px}
+.hero{background:linear-gradient(135deg,#0b2b52,#144678);color:#fff;padding:90px 0}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:50px;align-items:center}
+.badge{display:inline-block;padding:8px 15px;border:1px solid #ffffff33;background:#ffffff12;border-radius:30px;margin-bottom:18px;font-size:14px}
+.hero h1{font-size:clamp(40px,6vw,66px);line-height:1.05;margin-bottom:20px}.hero h1 span{color:#f5b63f}
+.hero p{max-width:650px;color:#e5edf8;font-size:18px;margin-bottom:30px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:13px 21px;border-radius:8px;font-weight:700;border:2px solid transparent;transition:.25s}
+.btn-primary{background:#f1a629;color:#14243a}.btn-primary:hover{background:#ffc45c;transform:translateY(-2px)}
+.btn-light{border-color:#ffffff99;color:#fff}.btn-light:hover{background:#fff;color:#123d73}
+.hero-card{background:#ffffff12;border:1px solid #ffffff33;padding:30px;border-radius:18px}.hero-card h3{font-size:24px;margin-bottom:15px}.hero-card li{list-style:none;margin:12px 0;color:#edf4ff}.hero-card li:before{content:"✓";color:#f5b63f;font-weight:bold;margin-right:10px}
+section{padding:78px 0}.section-title{text-align:center;margin-bottom:42px}.section-title small{color:#e39b24;font-weight:800;letter-spacing:1px}.section-title h2{font-size:38px;color:#102d52;margin:7px 0}.section-title p{max-width:700px;margin:auto;color:#68748a}
+.services{background:#fff}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.service-card{background:#fff;border:1px solid #e6ebf2;padding:28px;border-radius:15px;box-shadow:0 8px 25px #172d4b0f;transition:.25s}.service-card:hover{transform:translateY(-6px)}.icon{width:55px;height:55px;border-radius:12px;background:#edf4ff;color:#123d73;display:grid;place-items:center;font-size:25px;margin-bottom:16px}.service-card h3{color:#123d73;margin-bottom:9px}.service-card p{color:#6b7689;font-size:15px}
+.training{background:#f0f5fb}.training-grid,.about-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.training h2,.about h2{font-size:38px;color:#102d52;margin:8px 0 15px}.training p,.about p{color:#66748a;margin-bottom:16px}.check-list{list-style:none}.check-list li{margin:11px 0;font-weight:600}.check-list li:before{content:"✓";color:#e39b24;margin-right:10px}.training-box{background:#123d73;color:#fff;padding:35px;border-radius:18px}.training-box h3{font-size:27px;margin-bottom:12px}.training-box p{color:#dbe8f8}
+.about-box{min-height:310px;background:#123d73;color:#fff;border-radius:20px;display:grid;place-items:center;text-align:center;padding:30px}.about-box strong{display:block;font-size:46px;color:#f5b63f}
+.reviews{background:#f0f5fb}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.review-card{background:#fff;padding:25px;border-radius:15px;border:1px solid #e4eaf2}.stars{color:#e6a126;font-size:21px}.review-card p{color:#68748a;font-style:italic;margin:10px 0 16px}.review-card strong{color:#123d73}.google-review{text-align:center;margin-top:30px}
+.contact{background:#fff}.contact-card{background:#f5f8fc;padding:30px;border-radius:16px}.contact-item{display:flex;gap:15px;margin:20px 0;align-items:flex-start}.contact-item .icon{width:45px;height:45px;flex-shrink:0;margin:0;font-size:20px}.contact-item h4{color:#123d73}.contact-item p{color:#68748a}
+footer{background:#0d2747;color:#fff;padding:45px 0 20px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:35px;margin-bottom:30px}footer h3{margin-bottom:14px}footer p,footer li{color:#c8d5e5;font-size:14px}footer ul{list-style:none}footer li{margin:7px 0}.copyright{text-align:center;border-top:1px solid #ffffff1f;padding-top:18px;color:#aebdd0;font-size:13px}
+.whatsapp{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:28px;z-index:999;box-shadow:0 8px 20px #0003}
+@media(max-width:850px){.menu-btn{display:block}.nav-links{position:absolute;left:0;right:0;top:72px;background:#fff;display:none;flex-direction:column;padding:20px 4%;box-shadow:0 8px 20px #00000012}.nav-links.active{display:flex}.hero-grid,.training-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.service-grid,.review-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){section{padding:60px 0}.hero{padding:70px 0}.hero h1{font-size:42px}.hero p{font-size:16px}.section-title h2,.training h2{font-size:30px}.service-grid,.review-grid,.footer-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="container navbar">
+<a href="#home" class="logo">Nigam <span>Accounts Point</span></a>
+<button class="menu-btn" id="menuBtn">☰</button>
+<ul class="nav-links" id="navLinks">
+<li><a href="#home">Home</a></li><li><a href="#training">Accounts Training</a></li><li><a href="#services">Services</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li>
+</ul></div></header>
+
+<section class="hero" id="home"><div class="container hero-grid">
+<div><span class="badge">Professional Accounts Training & Services</span>
+<h1>Learn Accounts.<br><span>Build Your Career.</span></h1>
+<p>Practical Accounts Training, Tally Prime, GST, Income Tax, E-Accounting and Professional Bookkeeping services in Alambagh, Lucknow.</p>
+<div class="buttons"><a class="btn btn-primary" href="#training">Explore Training</a>
+<a class="btn btn-light" href="https://wa.me/919415418820?text=Hello%20Nigam%20Accounts%20Point%2C%20I%20want%20information%20about%20your%20services." target="_blank">WhatsApp Us</a></div></div>
+<div class="hero-card"><h3>Our Key Services</h3><ul><li>Tally Prime Training</li><li>GST & Income Tax Services</li><li>E-Accounting & Bookkeeping</li><li>Practical Accounts Training</li><li>Business Accounting Support</li></ul></div>
+</div></section>
+
+<section class="services" id="services"><div class="container">
+<div class="section-title"><small>WHAT WE DO</small><h2>Our Services</h2><p>Professional training and accounting solutions for students, professionals and businesses.</p></div>
+<div class="service-grid">
+<div class="service-card"><div class="icon">📚</div><h3>Accounts Training</h3><p>Learn accounting concepts with practical examples and real-world business applications.</p></div>
+<div class="service-card"><div class="icon">💻</div><h3>Tally Prime</h3><p>Practical Tally Prime training including accounting, inventory and business transactions.</p></div>
+<div class="service-card"><div class="icon">🧾</div><h3>GST Services</h3><p>GST-related accounting and compliance support for businesses.</p></div>
+<div class="service-card"><div class="icon">📊</div><h3>Income Tax</h3><p>Assistance with income-tax related accounting and documentation.</p></div>
+<div class="service-card"><div class="icon">📒</div><h3>Bookkeeping</h3><p>Accurate and organized bookkeeping for businesses and professionals.</p></div>
+<div class="service-card"><div class="icon">⚙️</div><h3>E-Accounting</h3><p>Learn and manage modern computerized accounting systems.</p></div>
+</div></div></section>
+
+<section class="training" id="training"><div class="container training-grid">
+<div><small style="color:#e39b24;font-weight:bold">ACCOUNTS TRAINING</small><h2>Practical Accounts Training</h2>
+<p>Build strong accounting skills with practical training designed for students, job seekers, professionals and business owners.</p>
+<ul class="check-list"><li>Basic to Advanced Accounting</li><li>Tally Prime</li><li>GST Accounting</li><li>E-Accounting</li><li>Bookkeeping</li><li>Practical Business Accounts</li></ul></div>
+<div class="training-box"><h3>Start Your Accounting Journey</h3><p>Get practical knowledge that can help you understand real-world accounting work.</p>
+<a href="https://wa.me/919415418820?text=Hello%20Nigam%20Accounts%20Point%2C%20I%20am%20interested%20in%20Accounts%20Training." target="_blank" class="btn btn-primary">Enquire on WhatsApp</a></div>
+</div></section>
+
+<section class="about"><div class="container about-grid">
+<div class="about-box"><div><strong>Since 1993</strong>Professional Accounting & Training</div></div>
+<div><h2>Why Choose Nigam Accounts Point?</h2><p>We focus on practical accounting knowledge and useful business accounting skills.</p><p>Our training covers accounting concepts, Tally Prime, GST, E-Accounting and bookkeeping.</p><p>Conveniently located in Alambagh, Lucknow.</p></div>
+</div></section>
+
+<section class="reviews" id="reviews"><div class="container">
+<div class="section-title"><small>GOOGLE REVIEWS</small><h2>What Our Customers Say</h2><p>Your feedback helps us improve our services.</p></div>
+<div class="review-grid">
+<div class="review-card"><div class="stars">★★★★★</div><p>Professional accounting training and helpful guidance.</p><strong>Google Customer</strong></div>
+<div class="review-card"><div class="stars">★★★★★</div><p>Practical approach and easy-to-understand accounting concepts.</p><strong>Google Customer</strong></div>
+<div class="review-card"><div class="stars">★★★★★</div><p>Good place for learning accounting and Tally Prime.</p><strong>Google Customer</strong></div>
+</div>
+<div class="google-review"><a href="https://www.google.com/maps/place/Nigam+Accounts+Point" target="_blank" class="btn btn-primary">⭐ Write a Google Review</a></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="container">
+<div class="section-title"><small>GET IN TOUCH</small><h2>Contact Us</h2><p>Contact us for Accounts Training and Accounting Services.</p></div>
+<div class="contact-grid">
+<div class="contact-card">
+<div class="contact-item"><div class="icon">📍</div><div><h4>Address</h4><p>558/31, Near Guru Nanak Nagar, Sundar Nagar, Alambagh, Lucknow - 226005</p></div></div>
+<div class="contact-item"><div class="icon">📞</div><div><h4>Phone 1</h4><p><a href="tel:+919415418820">9415418820</a></p></div></div>
+<div class="contact-item"><div class="icon">📞</div><div><h4>Phone 2</h4><p><a href="tel:+917080288059">+91 70802 88059</a></p></div></div>
+</div>
+<div class="contact-card"><h3 style="color:#123d73;margin-bottom:15px">Ready to Learn?</h3><p style="color:#68748a;margin-bottom:25px">Send us a WhatsApp message to ask about Accounts Training, Tally Prime, GST, E-Accounting or Bookkeeping.</p>
+<a href="https://wa.me/919415418820?text=Hello%20Nigam%20Accounts%20Point%2C%20I%20want%20information%20about%20your%20services." target="_blank" class="btn btn-primary">💬 WhatsApp 9415418820</a>
+<a href="https://wa.me/917080288059?text=Hello%20Nigam%20Accounts%20Point%2C%20I%20want%20information%20about%20your%20services." target="_blank" class="btn" style="background:#123d73;color:white;margin-top:10px">💬 WhatsApp +91 70802 88059</a>
+</div></div></div></section>
+
+<footer><div class="container footer-grid">
+<div><h3>Nigam Accounts Point</h3><p>Professional Accounts Training, Tally Prime, GST, Income Tax, E-Accounting and Bookkeeping services.</p></div>
+<div><h3>Quick Links</h3><ul><li><a href="#home">Home</a></li><li><a href="#training">Accounts Training</a></li><li><a href="#services">Services</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><h3>Location</h3><p>558/31, Near Guru Nanak Nagar, Sundar Nagar, Alambagh, Lucknow - 226005</p></div>
+</div><div class="container copyright">© <span id="year"></span> Nigam Accounts Point. All Rights Reserved.</div></footer>
+
+<a class="whatsapp" href="https://wa.me/919415418820?text=Hello%20Nigam%20Accounts%20Point" target="_blank" aria-label="WhatsApp">💬</a>
+<script>
+const menuBtn=document.getElementById("menuBtn"),navLinks=document.getElementById("navLinks");
+menuBtn.addEventListener("click",()=>navLinks.classList.toggle("active"));
+document.querySelectorAll(".nav-links a").forEach(a=>a.addEventListener("click",()=>navLinks.classList.remove("active")));
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
